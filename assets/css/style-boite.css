@@ -1,0 +1,94 @@
+.conteneur{
+	padding: 0.1em 25px;
+	font-size: 16px;
+	font-family: arial,sans-serif;
+}
+.button{
+	border: none;
+	display: inline-block;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;color: inherit;
+	background-color: inherit;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	font-size: 25px;
+	transition: all 0.3s ease;
+}	
+
+.button:hover{
+	opacity: .5;
+	font-size: 22px;
+
+}
+.noir{
+	color: #fff;
+	background-color: #000;
+}
+.affichage{
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+.btn{
+	border: none;
+	background: #ff4754;
+	color: white;
+	font-size: 20px;
+	padding: 20px 24px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+.btn:hover{
+	cursor: pointer;
+	opacity: .8;
+}
+
+.boite{
+	display: none;
+	padding-top: 100px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,.4);
+}
+.boite-contenu{
+	margin: auto;
+	background: #fff;
+	width: 700px;
+	height: 50vh;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,.3);
+	border: #000 2px solid;
+
+}
+.animation-haut{
+	position: relative;
+	animation: animeHaut 0.8s;
+}
+@keyframes animeHaut{
+	from{
+		top:-300px;
+		opacity: 0;
+	}
+
+	to{
+		top:10px;
+		opacity: .8;
+
+	}
+}
+.bleu{
+	color: #fff;
+	background-color: #2b579a;
+	padding: 20px;
+}
+
+.bleu2{
+	margin-top: 30%;
+}

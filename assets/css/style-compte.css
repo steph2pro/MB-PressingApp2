@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,600;1,900&display=swap'); 
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+:root {
+	--color3: rgba(30,14,255, .4);
+	--color1: rgba(30,144,255, .8);
+	--color2: rgba(30,144,255, 0.7);
+}
+.profile img{
+	width: 32%;
+	height: 25vh;
+	border-radius: 50%;
+	border:solid 2px var(--color2);
+}
+.profile,.form div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+b{
+	margin-top: 10px;
+	color: var(--color2);
+	opacity: .9;
+}
+div{
+		margin-top: 10px;
+}
+.input-bouton button{
+	opacity: .8;
+	cursor: pointer;
+}
