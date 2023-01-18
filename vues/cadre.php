@@ -12,35 +12,35 @@
 			<div class="images">
 				<div>
 					<div id="img1">
-					<a href="../controleurs/client.php">
+					<a href="client_form.php">
 						<img src="../assets/images/ad.png"  width="90px" id="im">
 					</a>
 					</div>
 					<div class="mot">
-						<a href="../controleurs/client.php">
+						<a href="client_form.php">
 						ajout client
 						</a>
 					</div>
 					<div class="img">
 
-						<a href="../controleurs/sup_client.php">
+						<a href="client_plus.php">
 							<img src="../assets/images/supclient.png"  width="50px" id="im1">
 						</a>
 					
 					</div>
 					<div class="mot1">
 
-						<a href="../controleurs/sup_client.php">
+						<a href="client_plus.php">
 						suprimer
 						</a>
 					</div>
 					<div class="img1">
-						<a href="../controleurs/mod_client.php">
+						<a href="client_plus.php">
 							<img src="../assets/images/mod.png"  width="80px" id="im2">
 						</a>
 					</div>
 					<div class="mot2">
-						<a href="../controleurs/mod_client.php">
+						<a href="client_plus.php">
 						modifier
 						</a>
 					</div>
@@ -50,7 +50,7 @@
 					<img src="../assets/images/fact.png" id="img2">
 					</a>
 					<div class="img3">
-					<a href="../facturation.php">
+					<a href="fact_edit.php">
 						<img src="../assets/images/to.png" width="140px" height="80px" id="im3">
 					</a>
 					</div>
@@ -70,21 +70,21 @@
 				</a>
 				<div class="images1">
 					
-					<a href="../controleurs/liste_depot-admin.php">
+					<a href="vertement_plus.php">
 						<img src="../assets/images/hab.png" id="im6">
 					</a>
 
-					<a href="../controleurs/liste_client.php">
+					<a href="client_plus.php">
 						<img src="../assets/images/clients.png" id="im5">
 					</a>
 				
 				</div>
 				
 				<div class="img6">
-					<a href="../modeles/depot-admin.php">
+					<a href="depot_form.php">
 						<img src="../assets/images/habit.png" id="im9">
 					</a>
-					<a href="../modeles/depot-admin.php">
+					<a href="depot_form.php">
 						<img src="../assets/images/plus.png" id="im8">
 					</a>
 					
@@ -99,12 +99,12 @@
 					</a>
 				</b>
 				<b id="mot2">
-					<a href="../facturation.php">
+					<a href="fact_edit.php">
 						editer 
 					</a>
 				</b>
 				<b id="mot3">
-					<a href="../controleurs/liste_depot-admin.php">
+					<a href="vertement_plus.php">
 					vetement
 					</a>
 				</b>
@@ -114,13 +114,13 @@
 					</a>
 				</b>
 				<b id="mot5">
-					<a href="../controleurs/liste_client.php">
+					<a href="client_plus.php">
 						clients 
 					</a>
 				</b>
 				
 					<b id="mot6">
-						<a href="../modeles/depot-admin.php">
+						<a href="depot_form.php">
 						depot
 						</a>
 					</b>
@@ -136,17 +136,17 @@
 				<div class="bas1">
 					
 					clients enregistrer
-					<input type="text" name="" value="<?php echo $cli; ?>">
+					<input type="text" name="" value="25<?php // echo $cli; ?>">
 				</div>
 				<div class="bas2">
 					
 					client favorie
-					<input type="text" name=""  value="<?php echo $cli_fav; ?>">
+					<input type="text" name=""  value="15<?php //echo $cli_fav; ?>">
 				</div>
 				<div class="bas3">
 					
 					nombre de depot
-					<input type="text" name="" value="<?php echo $depot; ?>">
+					<input type="text" name="" value="25<?php //echo $depot; ?>">
 				</div>
 			</div>
 			<div style="text-align: center; font-size: 1.3vw;">

@@ -16,6 +16,7 @@ if (!isset($_SESSION['user'])) {
     <link rel="stylesheet" href="../assets/css/menue.css" media="screen" type="text/css" />
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css">
 
+    <link rel="stylesheet" href="../assets/css/style-liste-client.css" media="screen" type="text/css" />
 
 
 <script type="text/javascript" src="../assets/js/script-ecrit.js" defer></script>
@@ -52,8 +53,8 @@ if (!isset($_SESSION['user'])) {
 				<ul class="sub-menu">
 					<li><a class="link_name" href="">vertements</a></li>
 					<li><a href="depot_form.php">Depot</a></li>
-					<li><a href="#">Retrait</a></li>
-					<li><a href="#">Plus</a></li>
+					<li><a href="retrait.php">Retrait</a></li>
+					<li><a href="vertement_plus.php">Plus</a></li>
 				</ul>
 			</li>
 			<li>
@@ -66,7 +67,7 @@ if (!isset($_SESSION['user'])) {
 				</div>
 				<ul class="sub-menu">
 					<li><a class="link_name" href="">Facturation</a></li>
-					<li><a href="depot_form.php">Editer</a></li>
+					<li><a href="fact_edit.php">Editer</a></li>
 					<li><a href="#">Liste</a></li>
 				</ul>
 			</li>
@@ -82,7 +83,7 @@ if (!isset($_SESSION['user'])) {
 					<li><a class="link_name" href="#">Clients</a></li>
 					<li><a href="client_form.php">Ajouter</a></li>
 					<li><a href="liste_client.php">Liste</a></li>
-					<li><a href="#">Plus</a></li>
+					<li><a href="client_plus.php">Plus</a></li>
 				</ul>
 			</li>
 			<li>
@@ -96,8 +97,8 @@ if (!isset($_SESSION['user'])) {
 				<ul class="sub-menu">
 					<li><a class="link_name" href="#">Utilisateurs</a></li>
 					<li><a href="user_form.php">Ajouter</a></li>
-					<li><a href="#">Liste</a></li>
-					<li><a href="#">Plus</a></li>
+					<li><a href="user_list.php">Liste</a></li>
+					<li><a href="user_plus.php">Plus</a></li>
 				</ul>
 			</li>
 			<li>

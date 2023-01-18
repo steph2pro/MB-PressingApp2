@@ -9,34 +9,40 @@
     <link rel="stylesheet" href="../assets/css/menue.css" media="screen" type="text/css" />
     <link rel="stylesheet" href="../assets/css/style-client.css" media="screen" type="text/css" />
 
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+<script type="text/javascript" src="../assets/js/script-client.js" defer></script>
 <script type="text/javascript" src="../assets/js/app.js" defer></script>
 </head>
 <body>
 	 <?php require 'menue-admin.php'; ?>
-	 <form action="" method="" class="form">
+	 <form class="form">
 	 	<h2>Enregistrer un client</h2>
 	 	<div class="input-block">
-	 		<input type="text" name="nom" placeholder="nom du client">
-	 		<input type="number" name="numero" placeholder="numero de telephone">
+	 		<input type="text" name="nom" id="nom" placeholder="nom du client">
+	 		<input type="number" name="numero" id="numero" placeholder="numero de telephone">
 	 	</div>
 	 	<div class="input-block">
-	 		<input type="text" name="adress" placeholder="lieu de residence">
-	 		<select name="statut" title="choisisez son statut">
+	 		<input type="text" name="adress" id="adress" placeholder="lieu de residence">
+	 		<select name="statut" id="statut" title="choisisez son statut">
 	 			<option value="regulier"> regulier </option>
 	 			<option value="irregulier">irregulier</option>
 	 			<option value="favorie">favorie</option>
 	 		</select>
 	 	</div>
 	 	<div class="">
-	 		<textarea placeholder="commentaire sur le client"></textarea>
+	 		<textarea placeholder="commentaire sur le client" id="commentaire"></textarea>
 	 	</div>
 	 	<div class="input-bouton">
-	 		<button class=""> Enregistrer</button>
+	 		<button class="" id="submit"> Enregistrer</button>
 	 	</div>
 
 	 </form>
+
+	<div class="notification" style="background-color: #000;">
+		🍉🎉Compte creer avec success🎉
+	</div>
+	
+<script src="../assets/js/jquery-3.6.0.js" ></script>
 
 </body>
 </html>

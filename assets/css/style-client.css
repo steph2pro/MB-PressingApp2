@@ -36,20 +36,33 @@ input,select{
 	padding: 15px;
 	margin: 10px;
 	width: 47%;
+	font-size: 18px;
+	color: var(--color1);
+	opacity: 1;
 
 }
 textarea{
 	border: solid 1px var(--bg2);
 	padding:  50px 15px;
 	margin: 10px;
-	width: 50%;
+	width: 97%;
 	height: 25vh;
+	font-size: 18px;
+	color: var(--color1);
+	opacity: 1;
 
 }
 input::placeholder,textarea::placeholder,select{
 	font-size: 18px;
 	color: var(--color1);
 	opacity: .5;
+}
+input[type="checkbox"]{
+	padding: 5px;
+	margin: 2px 5px;
+	cursor: pointer;
+	font-weight: 600;
+	width:auto;
 }
 .input-bouton{
 	display: flex;

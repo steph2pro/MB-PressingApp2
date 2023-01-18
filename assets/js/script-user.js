@@ -61,7 +61,7 @@ $(document).ready(function(){
             $("#submit").click(function(e){
                 e.preventDefault();
 	if (nom.value !='' && prenom.value !='' && password.value !='' && adress.value !='' && age.value !='' &&
-	 numero.value !='' && poste.value !='' && statut.value && commentaire.value) {
+	 numero.value !='' && poste.value !='' && statut.value!='' && commentaire.value!='') {
 	btn.style.backgroundColor='dodgerblue';
 
 
@@ -97,7 +97,15 @@ $(document).ready(function(){
                            let path="../assets/images/profiles/"+data.src;
                            $("#preImg").attr("src",path);
                            $("#preImg").fadeOut(1).fadeIn(1000);
-                           
+                           nom.value ='';
+                           prenom.value ='';
+                           password.value ='';
+                           adress.value ='';
+                           age.value ='' ;
+                           numero.value ='';
+                           poste.value ='';
+                           statut.value='';
+                           commentaire.value='';
                         } else {
                         	showNotification("🧭🧭"+data.em+"🔥🔥");
                             

@@ -36,7 +36,7 @@ if (isset($_POST['nom']) && isset($_POST['mot_de_pass'])) {
 					
 
 					if ($data->poste == "admin" || $data->poste == "administrateur") {
-						header('Location: ..\vues\chargement.html');
+						header('Location: ..\vues\dashboad.php');
 					} else {
 						header('Location: ..\vues\dashboad2.php');
 					}

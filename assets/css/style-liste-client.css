@@ -19,6 +19,63 @@ body{
 	background-color: var(--bg);
 }
 
+.img{
+	width: 40%;
+	height: 6vh;
+	border-radius: 15px;
+}
+.tete{
+	display: flex;
+	text-align: center;
+	background: var(--color2);
+	padding: 20px;
+}
+.tete1{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	text-align: center;
+	background: var(--err);
+	padding: 15px;
+	color: var(--blanck);
+}
+
+.hide{
+	display: none;
+}
+.tete input{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -6px;
+	width: 30%;
+}
+h1{
+	font-size: 35px;
+	color: var(--blanck);
+}
+#recherche i{
+	position: absolute;
+	color: var(--color1);
+	margin:4px 640px ;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.update,.delete{
+	background-color: var(--blue);
+	color: var(--blanck);
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+
+}
+.delete{
+	background-color: var(--err);
+	
+}
+
+
 .table{
 	width: 100%;
 	border-collapse: collapse;
