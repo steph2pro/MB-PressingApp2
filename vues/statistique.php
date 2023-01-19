@@ -12,6 +12,7 @@
 </head>
 <body>
     <?php require 'menue-admin.php'; ?>
+    <?php require '../controlleurs/stat.php'; ?>
 	<section id="achievement">
 		<h1>Les archives</h1>
 		<p>
@@ -20,12 +21,12 @@
 		<div class="counter-box">
 			<div class="box">
 				<i class="fas fa-bread-slice"></i>
-				<h1 class="counter"  data-target="45">0</h1>
+				<h1 class="counter"  data-target="<?= $depots ?>">0</h1>
 				<h4>depots</h4>	
 			</div>
 			<div class="box">
 				<i class="fas fa-check-double"></i>
-				<h1 class="counter" data-target="10">0</h1>
+				<h1 class="counter" data-target="<?= $retrait ?>">0</h1>
 				<h4>retraits</h4>
 			</div>
 			<div class="box">
@@ -35,12 +36,12 @@
 			</div>
 			<div class="box">
 				<i class="fas fa-user-check"></i>
-				<h1 class="counter" data-target="5">0</h1>
+				<h1 class="counter" data-target="<?= $statut ?>">0</h1>
 				<h4>clients favories</h4>	
 			</div>
 			<div class="box">
 				<i class="fas fa-users"></i>
-				<h1 class="counter" data-target="7">0</h1>
+				<h1 class="counter" data-target="<?= $users ?>">0</h1>
 				<h4>utilisateurs</h4>	
 			</div>
 			

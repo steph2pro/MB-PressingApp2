@@ -46,7 +46,7 @@
 	 	<div class="" style="display: flex;">
 	 		<textarea placeholder="commentaire sur l'utilisateur" id="commentaire" rows="10" style="width: 50%"></textarea>
 	 		<div class="upload2">
-		        <div class="img">
+		        <div class="imag">
 		            <img src="../assets/images/uilisateur.png" alt="profile" id="preImg">
 		            
 		        </div>

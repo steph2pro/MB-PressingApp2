@@ -111,9 +111,9 @@ if (!isset($_SESSION['user'])) {
 				</div>
 				<ul class="sub-menu">
 					<li><a class="link_name" href="#">Mis A jour</a></li>
-					<li><a href="#">Vertements</a></li>
-					<li><a href="#">Clients</a></li>
-					<li><a href="#">Utilisateurs</a></li>
+					<li><a href="vertement_etat.php">Vertements</a></li>
+					<li><a href="client_plus.php">Clients</a></li>
+					<li><a href="user_plus.php">Utilisateurs</a></li>
 			
 				</ul>
 			</li>

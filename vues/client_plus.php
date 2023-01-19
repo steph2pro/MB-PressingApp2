@@ -50,7 +50,7 @@
 				<th>telephone</th>
 				<th>adress</th>
 				<th>statut</th>
-				<th>options</th>
+				<th class="options">options</th>
 			</thead>
 			<tbody>
 				<?php

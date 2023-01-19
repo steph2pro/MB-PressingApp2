@@ -22,7 +22,7 @@
 	 	</div>
 	 	<div>
 	 		<p>
-	 		votre mot de pass est <b> <?= $_SESSION['user']['password'];?> </b> ,<br>
+	 		
 	 		vous residez a <b><?= $_SESSION['user']['adress'];?></b>,<br>
 	 		vous avez <b><?= $_SESSION['user']['age'];?></b> ans et etes <b><?= $_SESSION['user']['statut'];?></b>,<br>
 	 		votre poste est <b><?= $_SESSION['user']['poste'];?></b>
@@ -32,7 +32,10 @@
 	 	
 	 	<div class="input-bouton">
 	 		<a href="update_compt.php">
-	 			<button><i class="fas fa-edit"></i>modifier</button>
+	 			<button><i class="fas fa-edit"></i>&nbsp;modifier</button>
+	 		</a>
+	 		<a href="../controlleurs/logout.php" style="margin-left: 15px">
+	 			<button style="background: tomato;"><i class="fas fa-sign-out-alt"></i>&nbsp;se deconnecter</button>
 	 		</a>
 	 	</div>
 	 </div>

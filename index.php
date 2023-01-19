@@ -13,7 +13,7 @@
             
             <form action="modeles/connection.php" method="POST">
                 <h1>Connexion</h1>
-                <img src="assets/images/uilisateur.png">
+                <img src="assets/images/uilisateur.png" style="border-radius: 50%">
                 
                 <label><b id="nu">Nom d'utilisateur</b></label>
                 <input type="text" placeholder="Entrer le nom d'utilisateur" name="nom">

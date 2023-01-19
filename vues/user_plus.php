@@ -52,7 +52,7 @@
 				<th>mot de pass</th>
 				<th>telephone</th>
 				<th>statut</th>
-				<th>options</th>
+				<th class="options">options</th>
 			</thead>
 			<tbody>
 				<?php

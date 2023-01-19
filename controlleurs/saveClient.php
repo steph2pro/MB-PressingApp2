@@ -15,7 +15,7 @@ if ( isset($_POST["nom"])&& isset($_POST["numero"])&& isset($_POST["commentaire"
     //insertion l'image dans la bd
 
 	//2. creer une requete qui permet d'inserer des donnees
-	$query=$db->prepare('INSERT INTO clients SET nom=:nom,numero=:numero, residence=:adress, statut=:statut,commentaire=:commentaire');
+	$query=$db->prepare('INSERT INTO clients SET nom=:nom,numero=:numero, residence=:adress, statut=:statut,commentaire=:commentaire,date_enr=NOW()');
 	$query->execute([
 		"nom" =>$nom,
         "numero" => $numero,

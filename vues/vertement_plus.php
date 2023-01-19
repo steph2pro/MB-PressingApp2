@@ -55,7 +55,7 @@
 				<th>prix</th>
 				<th>anormalie</th>
 				<th>proprietaire</th>
-				<th>options</th>
+				<th class="options">options</th>
 			</thead>
 			<tbody>
 				<?php

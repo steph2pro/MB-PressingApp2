@@ -55,7 +55,7 @@
 	 	<div class="" style="display: flex;">
 	 		<textarea placeholder="description du vertement" id="description" rows="10" style="width: 50%"></textarea>
 	 		<div class="upload2">
-		        <div class="img">
+		        <div class="imag">
 		            <img src="../assets/images/vertement.png" alt="profile" id="preImg">
 		            
 		        </div>

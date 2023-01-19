@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../assets/css/style-profile.css">
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css">
 
-<script type="text/javascript" src="../assets/js/script-user.js" defer></script>
+<script type="text/javascript" src="../assets/js/script-compte.js" defer></script>
     
 <script type="text/javascript" src="../assets/js/app.js" defer></script>
 </head>
@@ -19,6 +19,7 @@
 	 <?php require 'menue-admin.php'; ?>
 	 <form class="form" method="POST" id="form" enctype="multipart/form-data">
 	 	<h2>modifier votre compte</h2>
+	 	<input type="hidden" name="id"  value="<?= $_SESSION['user']['id'];?>" id="id">
 	 	<div class="input-block">
 	 		<input type="text" name="nom"  value="<?= $_SESSION['user']['nom'];?>" id="nom">
 	 		<input type="text" name="prenom" value="<?= $_SESSION['user']['prenom'];?>" id="prenom">
@@ -54,7 +55,7 @@
 	 	<div class="" style="display: flex;">
 	 		
 	 		<div class="upload2">
-		        <div class="img">
+		        <div class="imag">
 		            <img src="../assets/images/profiles/<?= $_SESSION['user']['profile']; ?>" alt="profile" id="preImg">
 		        </div>
 		        <div class="round">

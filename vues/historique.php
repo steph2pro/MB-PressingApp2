@@ -13,55 +13,15 @@
     <link rel="stylesheet" href="../assets/css/style-liste-client.css" media="screen" type="text/css" />
 
     <link rel="stylesheet" href="../assets/css/style-histotique.css" media="screen" type="text/css" />
+<script type="text/javascript" src="../assets/js/script-recherche.js" defer></script>
+<script type="text/javascript" src="../assets/js/script-recherche_r.js" defer></script>
+<script type="text/javascript" src="../assets/js/script-recherche_c.js" defer></script>
 </head>
 <body>
 	 <?php require 'menue-admin.php'; ?>
-	 <div class="form" >
-	 	<h2>HISTORIQUES</h2>
-	 	<h3>historique des deposts </h3>
-	 	<table class="table">
-			<thead>
-				<th>#</th>
-				<th>nom</th>
-				<th>numero</th>
-				<th>adress</th>
-				<th>statut</th>
-			</thead>
-			<tbody>
-			
-				<tr>
-					<td data-label="#">1</td>
-					<td data-label="nom">kamsu</td>
-					<td data-label="numero">sebace</td>
-					<td data-label="adress">bafoussam</td>
-					<td data-label="statut">regulier</td>
-				</tr>
-				
-				
-			</tbody>
-		</table>
-	 	<h3>historique des retraits </h3>
-	 	<table class="table">
-			<thead>
-				<th>#</th>
-				<th>nom</th>
-				<th>numero</th>
-				<th>adress</th>
-				<th>statut</th>
-			</thead>
-			<tbody>
-			
-				<tr>
-					<td data-label="#">1</td>
-					<td data-label="nom">kamsu</td>
-					<td data-label="numero">sebace</td>
-					<td data-label="adress">bafoussam</td>
-					<td data-label="statut">regulier</td>
-				</tr>
-				
-				
-			</tbody>
-		</table>
+	 <div class="form" style="width: 80%" >
+	 	<?php require 'h_depot.php'; ?>
+	 	<?php require 'h_retrait.php'; ?>
 	 	<h3>historique des facturations </h3>
 	 	<table class="table">
 			<thead>
@@ -84,28 +44,8 @@
 				
 			</tbody>
 		</table>
-	 	<h3>historique des clients </h3>
-	 	<table class="table">
-			<thead>
-				<th>#</th>
-				<th>nom</th>
-				<th>numero</th>
-				<th>adress</th>
-				<th>statut</th>
-			</thead>
-			<tbody>
-			
-				<tr>
-					<td data-label="#">1</td>
-					<td data-label="nom">kamsu</td>
-					<td data-label="numero">sebace</td>
-					<td data-label="adress">bafoussam</td>
-					<td data-label="statut">regulier</td>
-				</tr>
-				
-				
-			</tbody>
-		</table>
+	 	<?php require 'h_client.php'; ?>
+	 	
 	 	
 	 	
 	 </div>

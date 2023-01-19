@@ -49,7 +49,7 @@ if (isset($_FILES["profile"]) && isset($_POST["style"])&& isset($_POST["marque"]
 
 	
 	//2. creer une requete qui permet d'inserer des donnees
-	$query=$db->prepare('INSERT INTO vertements SET style=:style, marque=:marque,couleur=:couleur, qualite=:qualite, quantite=:quantite, anormalie=:anormalie,prixU=:prix, description=:description,image=:image,proprietaire=:proprietaire');
+	$query=$db->prepare('INSERT INTO vertements SET style=:style, marque=:marque,couleur=:couleur, qualite=:qualite, quantite=:quantite, anormalie=:anormalie,prixU=:prix, description=:description,image=:image,proprietaire=:proprietaire,date_depot=NOW()');
 	$query->execute([
 		"style" =>$style,
 		"marque" => $marque,
